@@ -1,38 +1,41 @@
 {
-  "name": "react-material-ui-form-validator",
-  "version": "2.0.10",
-  "description": "Simple validator for forms designed with material-ui v1/v3 components.",
-  "main": "./lib/index.js",
-  "scripts": {
-    "build": "babel ./src -d ./lib --presets=es2015,react,stage-2",
-    "prepublish": "npm run build",
-    "lint": "eslint src/**"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Lucy-Lu/react-material-ui-form-validator.git"
-  },
-  "keywords": [
-    "material-ui",
-    "form",
-    "validation"
+  "_args": [
+    [
+      "git+ssh://git@github.com/Lucy-Lu/react-material-ui-form-validator.git",
+      "/Users/lucy/github-lulucy/landonline-search/web"
+    ]
   ],
-  "author": "NewOldMax",
-  "license": "MIT",
+  "_from": "git+ssh://git@github.com/Lucy-Lu/react-material-ui-form-validator.git",
+  "_id": "react-material-ui-form-validator@git+ssh://git@github.com/Lucy-Lu/react-material-ui-form-validator.git#be822ffafd4f1e67f401eceb5ba886906b4f5a00",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/react-material-ui-form-validator",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+ssh://git@github.com/Lucy-Lu/react-material-ui-form-validator.git",
+    "rawSpec": "git+ssh://git@github.com/Lucy-Lu/react-material-ui-form-validator.git",
+    "saveSpec": "git+ssh://git@github.com/Lucy-Lu/react-material-ui-form-validator.git",
+    "fetchSpec": "ssh://git@github.com/Lucy-Lu/react-material-ui-form-validator.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+ssh://git@github.com/Lucy-Lu/react-material-ui-form-validator.git#be822ffafd4f1e67f401eceb5ba886906b4f5a00",
+  "_spec": "git+ssh://git@github.com/Lucy-Lu/react-material-ui-form-validator.git",
+  "_where": "/Users/lucy/github-lulucy/landonline-search/web",
+  "author": {
+    "name": "NewOldMax"
+  },
   "bugs": {
     "url": "https://github.com/NewOldMax/react-material-ui-form-validator/issues"
   },
-  "homepage": "https://github.com/NewOldMax/react-material-ui-form-validator#readme",
   "dependencies": {
     "npm-check-updates": "^3.1.24",
     "react-form-validator-core": "0.6.4"
   },
-  "peerDependencies": {
-    "@material-ui/core": "^4.5.1",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "prop-types": "^15.7.2"
-  },
+  "description": "Simple validator for forms designed with material-ui v1/v3 components.",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
@@ -55,5 +58,30 @@
     "uglify-js": "3.6.1",
     "utf-8-validate": "5.0.2",
     "watchify": "^3.11.1"
-  }
+  },
+  "homepage": "https://github.com/NewOldMax/react-material-ui-form-validator#readme",
+  "keywords": [
+    "material-ui",
+    "form",
+    "validation"
+  ],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "name": "react-material-ui-form-validator",
+  "peerDependencies": {
+    "@material-ui/core": "^4.5.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "prop-types": "^15.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucy-Lu/react-material-ui-form-validator.git"
+  },
+  "scripts": {
+    "build": "babel ./src -d ./lib --presets=es2015,react,stage-2",
+    "lint": "eslint src/**",
+    "prepublish": "npm run build"
+  },
+  "version": "2.0.10"
 }
